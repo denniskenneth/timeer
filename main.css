@@ -1,0 +1,58 @@
+* {
+  text-align: center;
+  color: white;
+  font-family: "Bodoni Moda", serif;
+}
+html body {
+  background-color: black;
+}
+
+header {
+  padding-top: 2em;
+}
+
+.clock {
+  background-color: turquoise;
+  padding: 2rem;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 20%;
+}
+
+.center {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clock-col-2,
+.clock-col-3,
+.clock-col-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.col i.icon {
+  font-size: 5rem;
+}
+.col i.icon:hover {
+  color: black;
+}
+
+.timer {
+  font-size: 2.5rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
